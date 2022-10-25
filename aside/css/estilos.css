@@ -1,0 +1,41 @@
+.aside{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #ed705f;
+}
+.logo img{
+    margin: 5px;
+    padding: 5px;
+    
+
+}
+.navegador ul li{
+	margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.navegador ul li a{
+	text-decoration: none;
+    list-style: none;
+	font-size: 20px;
+	color: black;
+}
+.navegador a{
+    text-decoration: none;
+    list-style: none;
+}
+.nav-link{
+    background-color: #ff6347;
+}
+.nav-item .nav-link i,
+.nav-item .nav-link svg{
+    color: #000;
+}
+.navegador ul li a:hover{
+	color: black;
+    font-weight: 700;
+	border-bottom: 1px solid black;
+}
